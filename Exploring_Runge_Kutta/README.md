@@ -9,5 +9,5 @@ Where
 ![](https://github.com/oscar-foxtrot/University-stuff/blob/main/Exploring_Runge_Kutta/func.png)  
   
 Using the Runge-Kutta numerical method of the second order.  
-Study the convergence of the method,  
+Study the convergence of the method on regular grids within [0, 1] segment, starting at N = 20 (where N is the number of segments)  
 Try different parameters of the method to find out which one is better (or do they all give the same precision?)
