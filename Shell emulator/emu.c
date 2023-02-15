@@ -10,7 +10,7 @@
 #include <signal.h>
 #include <fcntl.h>
 
-// Restrictions: Command is 4096 symbols maximum, each argument is 256 maximum, the number of arguments is 256 maximum
+// Restrictions: Command is 4096 symbols maximum, each argument is 256 maximum, the number of arguments is 256 maximum 
 
 int is_in_set(char c)
 {
