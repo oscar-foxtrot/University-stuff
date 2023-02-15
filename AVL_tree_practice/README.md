@@ -1,3 +1,3 @@
 # A bit of practice
-A bit of practice initializing binary tree, adding values to it and,  
+A bit of practice performing operations with binary trees and,  
 most importantly, balancing it so as  it corresponds to the definition of an AVL tree  
