@@ -24,7 +24,8 @@ in 4 bytes, then sort** all of the 4-byte keys
 and after that print*** all of the initial values again
 on the screen (in sorted order).
 
-The functions for packing, sorting and unpacking must be written in x86 ASSEMBLY
+The program must be written in Pascal
+The functions for packing, sorting and unpacking must be written in x86 ASSEMBLY (inline)
 
 Footnotes (important!):  
 \* Keys resembling "Brand_21B 2006 30 G" are entered via the keyboard  
