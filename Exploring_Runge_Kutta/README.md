@@ -14,6 +14,6 @@ starting at N = 20 (where N is the number of segments), with increasing N.
 Try different parameters of the method to find out which one is better (or do they all give the same precision?)
 
 # Note: 
-The program ("program.c" in the current repository), the program displaying the solution,    
+The program ("program.c" in the current directory), the program displaying the solution,    
 can be used with other than sin(t^2 + t) functions,  
 only a simple redefinition of the "f" function is needed.
