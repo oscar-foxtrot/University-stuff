@@ -133,7 +133,7 @@ int main(int argc, char *argv[])
     shelf0.print_article_titles(0, "Comparing"); // Article titles starting with "Comparing" ✓
 
     std::cout << "\nTEST4: Starting with \"2022\"\n";
-    shelf0.print_article_titles(0, "2022"); // Article titles starting with "Comparing" ✓
+    shelf0.print_article_titles(0, "2022"); // Article titles starting with "2022" ✓
 
     std::cout << "\nTEST5: Starting with \"2022\", ending with 'e'\n";
     shelf0.print_article_titles(0, "2022", 'e'); // Article titles starting with "2022", ending with 'e' ✓
