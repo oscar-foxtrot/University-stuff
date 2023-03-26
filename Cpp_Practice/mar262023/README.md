@@ -20,3 +20,5 @@ m[1] = m[0] + m[1]; // error
 int n = m[0]; // error
 
 Hint: You can use custom auxiliary classes
+.......
+Translated by ChatGPT
