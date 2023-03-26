@@ -21,4 +21,4 @@ int n = m[0]; // error
 
 Hint: You can use custom auxiliary classes
 
-- Translation from Ru to Eng provided by ChatGPT
+Translation from Ru to Eng provided by ChatGPT
