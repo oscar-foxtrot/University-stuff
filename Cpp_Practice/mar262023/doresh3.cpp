@@ -1,4 +1,5 @@
-// Only smart ptrs used this time
+// Task 3
+// Smart ptrs used this time
 #include <iostream>
 #include <ctime>
 #include <cstdlib>
