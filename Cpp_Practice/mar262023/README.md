@@ -7,7 +7,7 @@
 
 4. (additional task for +1 point) Define the classes "Square General Matrix" and "Diagonal Matrix" in such a way that objects of the "General Matrix" class occupy N^2 variables of type double, and objects of the "Diagonal Matrix" class occupy N variables of type double, where N is the size of the matrix. Overload the + operator with two external functions so that the sum of two diagonal matrices gives a diagonal matrix, and the sum of a general matrix with any other matrix gives a general matrix.  
 
-5. (additional task for +1 point) Write a class "Array of 2 integer elements" and overload the [] and << operators for it in such a way that writing to the array is successful, but reading from it results in an error (compile-time or run-time):  
+5. (additional task for +1 point) Write a class "Array of 2 integer elements" and overload the [ ] and << operators for it in such a way that writing to the array is successful, but reading from it results in an error (compile-time or run-time):  
 
 Array m;  
 m[0] = 1; // OK  
