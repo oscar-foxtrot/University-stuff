@@ -9,16 +9,15 @@
 
 5. (additional task for +1 point) Write a class "Array of 2 integer elements" and overload the [] and << operators for it in such a way that writing to the array is successful, but reading from it results in an error (compile-time or run-time):  
 
-Copy code
-Array m;
-m[0] = 1; // OK
-m[1] = 2; // OK
-cout << m; // Prints 1 2
-m[1]++; // error
-m[1] += 1; // error
-m[1] = m[0] + m[1]; // error
-int n = m[0]; // error
+Array m;  
+m[0] = 1; // OK  
+m[1] = 2; // OK  
+cout << m; // Prints 1 2  
+m[1]++; // error  
+m[1] += 1; // error  
+m[1] = m[0] + m[1]; // error  
+int n = m[0]; // error  
 
-Hint: You can use custom auxiliary classes  
-.......  
-Translated by ChatGPT
+Hint: You can use custom auxiliary classes    
+.......    
+Translated by ChatGPT  
