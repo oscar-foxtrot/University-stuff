@@ -11,6 +11,14 @@
 
 Function::Functree::Functree() {}
 
+Function::~Function()
+{
+    if (ftree)
+    {
+        delete ftree;
+    }
+}
+
 Function::Function()
 {
     ftree = new Functree;
@@ -67,7 +75,6 @@ Function Function::perform_operation(const Function &other) const
         throw std::runtime_error("Incompatible variables. Make sure that the functions depend on only one variable\n");
     }
     Function res;
-    res.ftree = new Functree;
     res.ftree->left = ftree->get_tree();
     res.ftree->right = other.ftree->get_tree();
     if (!other.ftree->isnum)
@@ -377,3 +384,4 @@ Function asin(const Function &arg)
 {
     return arg.create_elemf_node("asin");
 }
+
