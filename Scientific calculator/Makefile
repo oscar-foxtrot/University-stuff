@@ -1,3 +1,6 @@
+# Type "make" in the directory where main.cpp and "includes" folder are
+# Type "make clean" to delete all object files after assembling the program
+
 CC = g++
 CFLAGS = -c -Wall
 OBJS = main.o includes/variable.o includes/function.o includes/anynum.o includes/vect.o
