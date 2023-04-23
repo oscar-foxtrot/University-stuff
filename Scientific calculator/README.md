@@ -1,3 +1,4 @@
-This is an implementation of scientific calculator, i.e. calculator supporting arbitrary precision numbers.  
+This is an implementation of a scientific calculator,  
+i.e. a calculator supporting arbitrary precision numbers.  
 It supports functions as well.  
-Be sure to have fun with it  
+Be sure to have fun with it.  
