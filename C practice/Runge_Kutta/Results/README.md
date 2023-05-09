@@ -10,6 +10,6 @@ The results obtained (briefly)
   
 
 
-![](https://github.com/oscar-foxtrot/University-stuff/blob/main/Exploring_Runge_Kutta/Images/Table1.png)  
-![](https://github.com/oscar-foxtrot/University-stuff/blob/main/Exploring_Runge_Kutta/Images/Fig1.png)  
-![](https://github.com/oscar-foxtrot/University-stuff/blob/main/Exploring_Runge_Kutta/Images/Fig2.png)  
+![](<https://github.com/oscar-foxtrot/University-stuff/blob/main/C practice/Runge_Kutta/Images/Table1.png>)  
+![](<https://github.com/oscar-foxtrot/University-stuff/blob/main/C practice/Runge_Kutta/Images/Fig1.png>)  
+![](<https://github.com/oscar-foxtrot/University-stuff/blob/main/EC practice/Runge_Kutta/Images/Fig2.png>)  
