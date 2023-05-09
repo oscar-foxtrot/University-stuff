@@ -1,4 +1,4 @@
-![](https://github.com/oscar-foxtrot/University_stuff/blob/main/CPP<nbsp>practice/mar192023/Task_Rus.png)  
+![](https://github.com/oscar-foxtrot/University_stuff/blob/main/CPP practice/mar192023/Task_Rus.png)  
   
 2. Write a program in which classes "Shelf", "Book", "Journal" are defined.  
 Organize the storage of information in those classes in such a way that a shelf would be able to contain up to 100 books and journals.  
