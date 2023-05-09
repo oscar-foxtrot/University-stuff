@@ -3,10 +3,10 @@ This is a solution for a simple task from the field of numerical methods.
 
 The task is to find the solution for the following Cauchy problem:  
 
-![](https://github.com/oscar-foxtrot/University-stuff/blob/main/Exploring_Runge_Kutta/Images/The_Task.png)  
+![](<https://github.com/oscar-foxtrot/University-stuff/blob/main/C practice/Runge_Kutta/Images/The_Task.png>)  
   
 Where  
-![](https://github.com/oscar-foxtrot/University-stuff/blob/main/Exploring_Runge_Kutta/Images/func.png)  
+![](<https://github.com/oscar-foxtrot/University-stuff/blob/main/C practice/Runge_Kutta/Images/func.png>)  
   
 Using the Runge-Kutta numerical method of the second order.  
 Study the convergence of the method on regular grids within [0, 1] segment,   
