@@ -22,6 +22,6 @@ Supported integer numbers are of the same size as in C++, that is 4 bytes.
 Compilation is performed using recursive descent parser method. The language allows for it, as it is simple enough.  
 
 ##### main.cpp contains the whole interpreter    
-##### prog.ml features a possible program: a maximum of 10 ints are entered and then bubble-sorted. The result is then printed  
+##### Prog.ml features a possible program: a maximum of 10 ints are entered and then bubble-sorted. The result is then printed  
 ##### Use ./main.cpp file_name  
   where file_name is the path of the file containing the program  
