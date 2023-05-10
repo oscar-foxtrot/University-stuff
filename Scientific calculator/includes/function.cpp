@@ -225,7 +225,7 @@ Anynum Function::Functree::operator()(Anynum x) const
 
 std::ostream &operator<<(std::ostream &os, const Function &func)
 {
-    return std::cout << *func.ftree;
+    return os << *func.ftree;
 }
 
 void Function::Functree::check_op_and_print(bool parneeded, bool paroverall) const
@@ -250,7 +250,7 @@ std::ostream &operator<<(std::ostream &os, const Function::Functree &functree)
             {
                 functree.left->check_op_and_print(true, false);
             }
-            std::cout << functree.value;
+            os << functree.value;
             if (functree.right)
             {
                 functree.right->check_op_and_print(true, false);
@@ -262,7 +262,7 @@ std::ostream &operator<<(std::ostream &os, const Function::Functree &functree)
             {
                 functree.left->check_op_and_print(true, true);
             }
-            std::cout << functree.value;
+            os << functree.value;
             if (functree.right)
             {
                 functree.right->check_op_and_print(true, true);
@@ -277,17 +277,17 @@ std::ostream &operator<<(std::ostream &os, const Function::Functree &functree)
         }
         if (!functree.isnum)
         {
-            std::cout << functree.value;
+            os << functree.value;
         }
         else
         {
             if (compare(functree.numvalue, 0) == -1) //(functree.numvalue < 0)
             {
-                std::cout << '(' << functree.numvalue << ')';
+                os << '(' << functree.numvalue << ')';
             }
             else
             {
-                std::cout << functree.numvalue;
+                os << functree.numvalue;
             }
         }
         if (functree.right)
@@ -295,7 +295,7 @@ std::ostream &operator<<(std::ostream &os, const Function::Functree &functree)
             functree.right->check_op_and_print(false, false);
         }
     }
-    return std::cout;
+    return os;
 }
 
 Function::Functree::~Functree() // Functree destructor
