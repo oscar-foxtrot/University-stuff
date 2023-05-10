@@ -886,16 +886,16 @@ std::ostream &operator<<(std::ostream &os, const Anynum &num)
 {
     if (num.isneg)
     {
-        std::cout << '-';
+        os << '-';
     }
 
-    int precis = std::cout.precision();
+    int precis = os.precision();
 
-    if (std::cout.flags() & std::ios_base::fixed) // 0.000000
+    if (os.flags() & std::ios_base::fixed) // 0.000000
     {
         Anynum::Impl::output_fixed(num, precis, false);
     }
-    else if (std::cout.flags() & std::ios_base::scientific) // 0.000000e+0
+    else if (os.flags() & std::ios_base::scientific) // 0.000000e+0
     {
         Anynum::Impl::output_scientific(num, precis);
     }
@@ -904,7 +904,7 @@ std::ostream &operator<<(std::ostream &os, const Anynum &num)
         Anynum::Impl::output_fixed(num, precis, true); // default
     }
 
-    return std::cout;
+    return os;
 }
 
 // All special cases (i.e. zero div, add, mult, subtract) checked
