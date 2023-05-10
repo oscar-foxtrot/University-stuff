@@ -8,7 +8,7 @@ Variable::Variable(std::string val): value(val) {}
 
 std::ostream &operator<<(std::ostream &os, const Variable &var) 
 {
-    return std::cout << var.value;
+    return os << var.value;
 }
 
 std::string Variable::get_value() const 
