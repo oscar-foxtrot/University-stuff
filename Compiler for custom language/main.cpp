@@ -5,6 +5,7 @@
 #include <exception>
 #include <stack>
 #include <vector>
+#include <memory>
 
 enum type_of_lex
 {
@@ -85,7 +86,7 @@ class Id
     type_of_lex type; // type of identifier
     int value; // value of the variable
     int size;
-    int *intarr; // value if array of ints
+    std::unique_ptr<int[]> intarr; // value if array of ints
     bool isarr;
 public:
     Id()
@@ -95,11 +96,6 @@ public:
         intarr = nullptr;
         isarr = false;
         size = 0; // for arrays
-    }
-    ~Id()
-    {
-        if (intarr)
-            delete[] intarr;
     }
     std::string get_name() const {return name;}
     void set_name(const std::string &n) {name = n;}
@@ -117,7 +113,8 @@ public:
     void set_size(int v) 
     {
         size = v;
-        intarr = new int[size];
+        intarr = std::make_unique<int[]>(size);
+        isarr = true;
     }
     int get_int(int pos) 
     {
