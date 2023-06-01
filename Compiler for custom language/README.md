@@ -14,8 +14,8 @@ C → a | b | ... | z | A | B | ... | Z
 R → 0 | 1 | 2 | ... | 9  
 
 Above is the language description. Let's call it M-language (M-lang)  
-Note: In the description above {<character>} means iterations - "choosing" the path multiple times.  
-Note: In the description above [<symbol1> | <symbol2>] means "choice required". Exactly one of the values should be "picked"  
+Note: In the description above {\<character\>} means iterations - "choosing" the path multiple times.  
+Note: In the description above [\<symbol1\> | \<symbol2\>] means "choice required". Exactly one of the values should be "picked"  
 M-lang features int arrays and bool values and syntax similar to that of Pascal  
 That is enough for performing key sorting, for example  
 Supported integer numbers are of the same size as in C++, that is 4 bytes.  
