@@ -10,6 +10,7 @@ class Function
 {
     struct Functree;
 public:
+    ~Function();
     Function();
     Function(int arg);
     Function(double arg);
