@@ -87,8 +87,8 @@ int main(int argc, char *argv[]) // All tests from the description of the task a
     //std::cout << "500 digits of pi: " << std::setprecision(500) << pi << '\n' << std::endl; 
 
 
-    std::cout.unsetf(std::ios_base::fixed);
-    std::cout << "1000! is " << factorial(1000);
+    /*std::cout.unsetf(std::ios_base::fixed);
+    std::cout << "1000! is " << factorial(1000);*/
 
     return 0;
 }
